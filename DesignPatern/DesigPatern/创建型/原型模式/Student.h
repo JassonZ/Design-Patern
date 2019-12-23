@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Student : NSObject
+@interface Student : NSObject<NSCopying>
 
 @property(nonatomic, copy) NSString * name;
 @property(nonatomic, assign) NSInteger age;

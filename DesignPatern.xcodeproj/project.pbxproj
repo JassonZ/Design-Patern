@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		247008D523B05EC10089CEFD /* Tea.m in Sources */ = {isa = PBXBuildFile; fileRef = 247008D423B05EC10089CEFD /* Tea.m */; };
+		247008D823B05F140089CEFD /* BlackTea.m in Sources */ = {isa = PBXBuildFile; fileRef = 247008D723B05F140089CEFD /* BlackTea.m */; };
+		247008DB23B064510089CEFD /* WebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 247008DA23B064510089CEFD /* WebImage.m */; };
+		247008E023B067410089CEFD /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = 247008DF23B067410089CEFD /* Customer.m */; };
+		247008E323B067500089CEFD /* Waiter.m in Sources */ = {isa = PBXBuildFile; fileRef = 247008E223B067500089CEFD /* Waiter.m */; };
+		247008E623B0675C0089CEFD /* Chef.m in Sources */ = {isa = PBXBuildFile; fileRef = 247008E523B0675C0089CEFD /* Chef.m */; };
+		247008EF23B08E800089CEFD /* MusicService.m in Sources */ = {isa = PBXBuildFile; fileRef = 247008ED23B08E800089CEFD /* MusicService.m */; };
+		247008F223B08F000089CEFD /* FreeMusicService.m in Sources */ = {isa = PBXBuildFile; fileRef = 247008F123B08F000089CEFD /* FreeMusicService.m */; };
+		247008F523B08F110089CEFD /* VipMusicService.m in Sources */ = {isa = PBXBuildFile; fileRef = 247008F423B08F110089CEFD /* VipMusicService.m */; };
 		96DAD51623AFAD740019E44E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DAD51523AFAD740019E44E /* AppDelegate.m */; };
-		96DAD51923AFAD740019E44E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DAD51823AFAD740019E44E /* SceneDelegate.m */; };
 		96DAD51C23AFAD740019E44E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DAD51B23AFAD740019E44E /* ViewController.m */; };
 		96DAD51F23AFAD740019E44E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DAD51D23AFAD740019E44E /* Main.storyboard */; };
 		96DAD52123AFAD760019E44E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96DAD52023AFAD760019E44E /* Assets.xcassets */; };
@@ -33,11 +41,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		247008D323B05EC10089CEFD /* Tea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tea.h; sourceTree = "<group>"; };
+		247008D423B05EC10089CEFD /* Tea.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tea.m; sourceTree = "<group>"; };
+		247008D623B05F140089CEFD /* BlackTea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlackTea.h; sourceTree = "<group>"; };
+		247008D723B05F140089CEFD /* BlackTea.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlackTea.m; sourceTree = "<group>"; };
+		247008D923B064510089CEFD /* WebImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebImage.h; sourceTree = "<group>"; };
+		247008DA23B064510089CEFD /* WebImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebImage.m; sourceTree = "<group>"; };
+		247008DE23B067410089CEFD /* Customer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
+		247008DF23B067410089CEFD /* Customer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
+		247008E123B067500089CEFD /* Waiter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Waiter.h; sourceTree = "<group>"; };
+		247008E223B067500089CEFD /* Waiter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Waiter.m; sourceTree = "<group>"; };
+		247008E423B0675C0089CEFD /* Chef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Chef.h; sourceTree = "<group>"; };
+		247008E523B0675C0089CEFD /* Chef.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chef.m; sourceTree = "<group>"; };
+		247008ED23B08E800089CEFD /* MusicService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicService.m; sourceTree = "<group>"; };
+		247008EE23B08E800089CEFD /* MusicService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicService.h; sourceTree = "<group>"; };
+		247008F023B08F000089CEFD /* FreeMusicService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FreeMusicService.h; sourceTree = "<group>"; };
+		247008F123B08F000089CEFD /* FreeMusicService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FreeMusicService.m; sourceTree = "<group>"; };
+		247008F323B08F110089CEFD /* VipMusicService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VipMusicService.h; sourceTree = "<group>"; };
+		247008F423B08F110089CEFD /* VipMusicService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VipMusicService.m; sourceTree = "<group>"; };
 		96DAD51123AFAD740019E44E /* DesignPatern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DAD51423AFAD740019E44E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		96DAD51523AFAD740019E44E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		96DAD51723AFAD740019E44E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		96DAD51823AFAD740019E44E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		96DAD51A23AFAD740019E44E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		96DAD51B23AFAD740019E44E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		96DAD51E23AFAD740019E44E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -90,6 +114,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		247008D123B05E7E0089CEFD /* 结构型 */ = {
+			isa = PBXGroup;
+			children = (
+				247008EC23B08E800089CEFD /* 享元模式 */,
+				247008DD23B0671B0089CEFD /* 代理模式 */,
+				247008DC23B064590089CEFD /* 外观模式 */,
+				247008D223B05E900089CEFD /* 装饰模式 */,
+			);
+			path = "结构型";
+			sourceTree = "<group>";
+		};
+		247008D223B05E900089CEFD /* 装饰模式 */ = {
+			isa = PBXGroup;
+			children = (
+				247008D323B05EC10089CEFD /* Tea.h */,
+				247008D423B05EC10089CEFD /* Tea.m */,
+				247008D623B05F140089CEFD /* BlackTea.h */,
+				247008D723B05F140089CEFD /* BlackTea.m */,
+			);
+			path = "装饰模式";
+			sourceTree = "<group>";
+		};
+		247008DC23B064590089CEFD /* 外观模式 */ = {
+			isa = PBXGroup;
+			children = (
+				247008D923B064510089CEFD /* WebImage.h */,
+				247008DA23B064510089CEFD /* WebImage.m */,
+			);
+			path = "外观模式";
+			sourceTree = "<group>";
+		};
+		247008DD23B0671B0089CEFD /* 代理模式 */ = {
+			isa = PBXGroup;
+			children = (
+				247008DE23B067410089CEFD /* Customer.h */,
+				247008DF23B067410089CEFD /* Customer.m */,
+				247008E123B067500089CEFD /* Waiter.h */,
+				247008E223B067500089CEFD /* Waiter.m */,
+				247008E423B0675C0089CEFD /* Chef.h */,
+				247008E523B0675C0089CEFD /* Chef.m */,
+			);
+			path = "代理模式";
+			sourceTree = "<group>";
+		};
+		247008EC23B08E800089CEFD /* 享元模式 */ = {
+			isa = PBXGroup;
+			children = (
+				247008EE23B08E800089CEFD /* MusicService.h */,
+				247008ED23B08E800089CEFD /* MusicService.m */,
+				247008F023B08F000089CEFD /* FreeMusicService.h */,
+				247008F123B08F000089CEFD /* FreeMusicService.m */,
+				247008F323B08F110089CEFD /* VipMusicService.h */,
+				247008F423B08F110089CEFD /* VipMusicService.m */,
+			);
+			name = "享元模式";
+			path = "DesignPatern/DesigPatern/结构型/享元模式";
+			sourceTree = SOURCE_ROOT;
+		};
 		96DAD50823AFAD740019E44E = {
 			isa = PBXGroup;
 			children = (
@@ -112,8 +194,6 @@
 				96DAD52D23AFADA40019E44E /* DesigPatern */,
 				96DAD51423AFAD740019E44E /* AppDelegate.h */,
 				96DAD51523AFAD740019E44E /* AppDelegate.m */,
-				96DAD51723AFAD740019E44E /* SceneDelegate.h */,
-				96DAD51823AFAD740019E44E /* SceneDelegate.m */,
 				96DAD51A23AFAD740019E44E /* ViewController.h */,
 				96DAD51B23AFAD740019E44E /* ViewController.m */,
 				96DAD51D23AFAD740019E44E /* Main.storyboard */,
@@ -128,6 +208,7 @@
 		96DAD52D23AFADA40019E44E /* DesigPatern */ = {
 			isa = PBXGroup;
 			children = (
+				247008D123B05E7E0089CEFD /* 结构型 */,
 				96DAD56123AFBC400019E44E /* 创建型 */,
 			);
 			path = DesigPatern;
@@ -290,17 +371,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				247008E623B0675C0089CEFD /* Chef.m in Sources */,
 				96DAD54A23AFB5E20019E44E /* CocaFactory.m in Sources */,
 				96DAD53023AFADC50019E44E /* Cola.m in Sources */,
+				247008EF23B08E800089CEFD /* MusicService.m in Sources */,
 				96DAD56923AFC27F0019E44E /* Builder.m in Sources */,
 				96DAD55D23AFBA390019E44E /* CocaAbstractFactory.m in Sources */,
 				96DAD54723AFB5830019E44E /* Factory.m in Sources */,
 				96DAD54023AFB20E0019E44E /* CocaCola.m in Sources */,
+				247008F223B08F000089CEFD /* FreeMusicService.m in Sources */,
+				247008DB23B064510089CEFD /* WebImage.m in Sources */,
+				247008E323B067500089CEFD /* Waiter.m in Sources */,
 				96DAD56023AFBA8F0019E44E /* PesiAbstactFactory.m in Sources */,
+				247008D823B05F140089CEFD /* BlackTea.m in Sources */,
 				96DAD56D23AFC74F0019E44E /* Student.m in Sources */,
 				96DAD51C23AFAD740019E44E /* ViewController.m in Sources */,
 				96DAD54D23AFB6440019E44E /* PesiFactory.m in Sources */,
 				96DAD55A23AFB9AD0019E44E /* PesiBottle.m in Sources */,
+				247008E023B067410089CEFD /* Customer.m in Sources */,
 				96DAD51623AFAD740019E44E /* AppDelegate.m in Sources */,
 				96DAD55723AFB99F0019E44E /* CocaBottle.m in Sources */,
 				96DAD53A23AFAE490019E44E /* SimpleFactory.m in Sources */,
@@ -308,8 +396,9 @@
 				96DAD54323AFB2360019E44E /* PesiCola.m in Sources */,
 				96DAD55423AFB98C0019E44E /* Bottle.m in Sources */,
 				96DAD56523AFBD300019E44E /* Singleton.m in Sources */,
+				247008F523B08F110089CEFD /* VipMusicService.m in Sources */,
+				247008D523B05EC10089CEFD /* Tea.m in Sources */,
 				96DAD52723AFAD760019E44E /* main.m in Sources */,
-				96DAD51923AFAD740019E44E /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,14 +538,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CZPABXLV;
 				INFOPLIST_FILE = DesignPatern/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.glodon.DesignPatern;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -465,14 +558,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CZPABXLV;
 				INFOPLIST_FILE = DesignPatern/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.glodon.DesignPatern;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

@@ -19,6 +19,14 @@
 #import "CocaBottle.h"
 #import "Builder.h"
 #import "Student.h"
+#import "Tea.h"
+#import "BlackTea.h"
+#import "Chef.h"
+#import "Customer.h"
+#import "Waiter.h"
+#import "MusicService.h"
+#import "FreeMusicService.h"
+#import "VipMusicService.h"
 
 @interface ViewController ()
 
@@ -71,6 +79,33 @@
     Student * lisi = [student copy];
     lisi.name = @"李四";
     
+    Tea * tea = [Tea createTea];
+    
+    BlackTea * blackTea = [BlackTea createTea];
+    blackTea.tea = tea;
+    
+    [blackTea addBlackTea];
+    [blackTea addLemon];
+    
+    Chef * chef = [Chef new];
+    
+    Customer * customer = [Customer new];
+    [customer callWaiter];
+    [customer orderingFood:@"小鸡炖蘑菇"];
+    [customer orderingFood:@"东坡肉"];
+    [customer orderingFood:@"方便面"];
+    [customer removeFood:@"方便面"];
+    [customer.waiter pushToChef:chef];
+    
+    MusicService * musicService = [MusicService new];
+    FreeMusicService * freeMusicService = [FreeMusicService new];
+    VipMusicService * vipMusicService = [VipMusicService new];
+    
+    freeMusicService.musicServer = musicService;
+    vipMusicService.musicService = musicService;
+    
+    [freeMusicService listenFreeMusic:@"free"];
+    [vipMusicService listenMusic:@"全部音乐"];
 }
 
 
