@@ -27,6 +27,14 @@
 #import "MusicService.h"
 #import "FreeMusicService.h"
 #import "VipMusicService.h"
+#import "UnicomSIMCard.h"
+#import "MobileSIMCard.h"
+#import "miPhone.h"
+#import "iPhone.h"
+#import "StandardSIMCard.h"
+#import "NanoSIMCard.h"
+#import "NanoAdapter.h"
+#import "OnePhone.h"
 
 @interface ViewController ()
 
@@ -106,6 +114,32 @@
     
     [freeMusicService listenFreeMusic:@"free"];
     [vipMusicService listenMusic:@"全部音乐"];
+    
+    /**
+     桥接模式
+     */
+    UnicomSIMCard * unicomCard = [UnicomSIMCard new];
+    MobileSIMCard * mobileCard = [MobileSIMCard new];
+    
+    miPhone * mi9 = [miPhone new];
+    mi9.simCard = unicomCard;
+    iPhone * iphoneX = [iPhone new];
+    iphoneX.simCard = mobileCard;
+    
+    [mi9 launchPhone];
+    [iphoneX launchPhone];
+    
+    /**
+     适配器模式
+     */
+    StandardSIMCard * standardSimCard = [StandardSIMCard new];
+    NanoSIMCard * nanoSimCard = [NanoSIMCard new];
+    OnePhone * onePhone = [OnePhone new];
+    [onePhone setSimCard:standardSimCard];
+    
+    NanoAdapter * nanoAdapter = [NanoAdapter new];
+    nanoAdapter.nanoSimCard = nanoSimCard;
+    [onePhone setSimCard:nanoAdapter];
 }
 
 

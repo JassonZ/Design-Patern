@@ -16,6 +16,16 @@
 		247008EF23B08E800089CEFD /* MusicService.m in Sources */ = {isa = PBXBuildFile; fileRef = 247008ED23B08E800089CEFD /* MusicService.m */; };
 		247008F223B08F000089CEFD /* FreeMusicService.m in Sources */ = {isa = PBXBuildFile; fileRef = 247008F123B08F000089CEFD /* FreeMusicService.m */; };
 		247008F523B08F110089CEFD /* VipMusicService.m in Sources */ = {isa = PBXBuildFile; fileRef = 247008F423B08F110089CEFD /* VipMusicService.m */; };
+		964A756F23B24C2D004B708B /* SIMCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 964A756E23B24C2D004B708B /* SIMCard.m */; };
+		964A757223B24CCB004B708B /* UnicomSIMCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 964A757123B24CCB004B708B /* UnicomSIMCard.m */; };
+		964A757523B24D07004B708B /* MobileSIMCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 964A757423B24D07004B708B /* MobileSIMCard.m */; };
+		964A757823B24D46004B708B /* Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = 964A757723B24D46004B708B /* Phone.m */; };
+		964A757B23B24E73004B708B /* iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 964A757A23B24E73004B708B /* iPhone.m */; };
+		964A757E23B24E84004B708B /* miPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 964A757D23B24E84004B708B /* miPhone.m */; };
+		966A679323B269F900C8441B /* StandardSIMCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 966A679223B269F900C8441B /* StandardSIMCard.m */; };
+		966A679623B26A6700C8441B /* NanoSIMCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 966A679523B26A6700C8441B /* NanoSIMCard.m */; };
+		966A679923B26AAA00C8441B /* NanoAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 966A679823B26AAA00C8441B /* NanoAdapter.m */; };
+		966A679C23B26AEB00C8441B /* OnePhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 966A679B23B26AEB00C8441B /* OnePhone.m */; };
 		96DAD51623AFAD740019E44E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DAD51523AFAD740019E44E /* AppDelegate.m */; };
 		96DAD51C23AFAD740019E44E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DAD51B23AFAD740019E44E /* ViewController.m */; };
 		96DAD51F23AFAD740019E44E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DAD51D23AFAD740019E44E /* Main.storyboard */; };
@@ -59,6 +69,26 @@
 		247008F123B08F000089CEFD /* FreeMusicService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FreeMusicService.m; sourceTree = "<group>"; };
 		247008F323B08F110089CEFD /* VipMusicService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VipMusicService.h; sourceTree = "<group>"; };
 		247008F423B08F110089CEFD /* VipMusicService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VipMusicService.m; sourceTree = "<group>"; };
+		964A756D23B24C2D004B708B /* SIMCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SIMCard.h; sourceTree = "<group>"; };
+		964A756E23B24C2D004B708B /* SIMCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIMCard.m; sourceTree = "<group>"; };
+		964A757023B24CCB004B708B /* UnicomSIMCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnicomSIMCard.h; sourceTree = "<group>"; };
+		964A757123B24CCB004B708B /* UnicomSIMCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnicomSIMCard.m; sourceTree = "<group>"; };
+		964A757323B24D07004B708B /* MobileSIMCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileSIMCard.h; sourceTree = "<group>"; };
+		964A757423B24D07004B708B /* MobileSIMCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileSIMCard.m; sourceTree = "<group>"; };
+		964A757623B24D46004B708B /* Phone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Phone.h; sourceTree = "<group>"; };
+		964A757723B24D46004B708B /* Phone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Phone.m; sourceTree = "<group>"; };
+		964A757923B24E73004B708B /* iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPhone.h; sourceTree = "<group>"; };
+		964A757A23B24E73004B708B /* iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhone.m; sourceTree = "<group>"; };
+		964A757C23B24E84004B708B /* miPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = miPhone.h; sourceTree = "<group>"; };
+		964A757D23B24E84004B708B /* miPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = miPhone.m; sourceTree = "<group>"; };
+		966A679123B269F900C8441B /* StandardSIMCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StandardSIMCard.h; sourceTree = "<group>"; };
+		966A679223B269F900C8441B /* StandardSIMCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StandardSIMCard.m; sourceTree = "<group>"; };
+		966A679423B26A6700C8441B /* NanoSIMCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NanoSIMCard.h; sourceTree = "<group>"; };
+		966A679523B26A6700C8441B /* NanoSIMCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NanoSIMCard.m; sourceTree = "<group>"; };
+		966A679723B26AAA00C8441B /* NanoAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NanoAdapter.h; sourceTree = "<group>"; };
+		966A679823B26AAA00C8441B /* NanoAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NanoAdapter.m; sourceTree = "<group>"; };
+		966A679A23B26AEB00C8441B /* OnePhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OnePhone.h; sourceTree = "<group>"; };
+		966A679B23B26AEB00C8441B /* OnePhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnePhone.m; sourceTree = "<group>"; };
 		96DAD51123AFAD740019E44E /* DesignPatern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DAD51423AFAD740019E44E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		96DAD51523AFAD740019E44E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -117,6 +147,8 @@
 		247008D123B05E7E0089CEFD /* 结构型 */ = {
 			isa = PBXGroup;
 			children = (
+				966A679023B2696900C8441B /* 适配器模式 */,
+				964A756C23B24C07004B708B /* 桥接模式 */,
 				247008EC23B08E800089CEFD /* 享元模式 */,
 				247008DD23B0671B0089CEFD /* 代理模式 */,
 				247008DC23B064590089CEFD /* 外观模式 */,
@@ -171,6 +203,40 @@
 			name = "享元模式";
 			path = "DesignPatern/DesigPatern/结构型/享元模式";
 			sourceTree = SOURCE_ROOT;
+		};
+		964A756C23B24C07004B708B /* 桥接模式 */ = {
+			isa = PBXGroup;
+			children = (
+				964A756D23B24C2D004B708B /* SIMCard.h */,
+				964A756E23B24C2D004B708B /* SIMCard.m */,
+				964A757023B24CCB004B708B /* UnicomSIMCard.h */,
+				964A757123B24CCB004B708B /* UnicomSIMCard.m */,
+				964A757323B24D07004B708B /* MobileSIMCard.h */,
+				964A757423B24D07004B708B /* MobileSIMCard.m */,
+				964A757623B24D46004B708B /* Phone.h */,
+				964A757723B24D46004B708B /* Phone.m */,
+				964A757923B24E73004B708B /* iPhone.h */,
+				964A757A23B24E73004B708B /* iPhone.m */,
+				964A757C23B24E84004B708B /* miPhone.h */,
+				964A757D23B24E84004B708B /* miPhone.m */,
+			);
+			path = "桥接模式";
+			sourceTree = "<group>";
+		};
+		966A679023B2696900C8441B /* 适配器模式 */ = {
+			isa = PBXGroup;
+			children = (
+				966A679123B269F900C8441B /* StandardSIMCard.h */,
+				966A679223B269F900C8441B /* StandardSIMCard.m */,
+				966A679423B26A6700C8441B /* NanoSIMCard.h */,
+				966A679523B26A6700C8441B /* NanoSIMCard.m */,
+				966A679723B26AAA00C8441B /* NanoAdapter.h */,
+				966A679823B26AAA00C8441B /* NanoAdapter.m */,
+				966A679A23B26AEB00C8441B /* OnePhone.h */,
+				966A679B23B26AEB00C8441B /* OnePhone.m */,
+			);
+			path = "适配器模式";
+			sourceTree = "<group>";
 		};
 		96DAD50823AFAD740019E44E = {
 			isa = PBXGroup;
@@ -373,9 +439,13 @@
 			files = (
 				247008E623B0675C0089CEFD /* Chef.m in Sources */,
 				96DAD54A23AFB5E20019E44E /* CocaFactory.m in Sources */,
+				964A756F23B24C2D004B708B /* SIMCard.m in Sources */,
 				96DAD53023AFADC50019E44E /* Cola.m in Sources */,
+				966A679323B269F900C8441B /* StandardSIMCard.m in Sources */,
 				247008EF23B08E800089CEFD /* MusicService.m in Sources */,
 				96DAD56923AFC27F0019E44E /* Builder.m in Sources */,
+				966A679623B26A6700C8441B /* NanoSIMCard.m in Sources */,
+				966A679923B26AAA00C8441B /* NanoAdapter.m in Sources */,
 				96DAD55D23AFBA390019E44E /* CocaAbstractFactory.m in Sources */,
 				96DAD54723AFB5830019E44E /* Factory.m in Sources */,
 				96DAD54023AFB20E0019E44E /* CocaCola.m in Sources */,
@@ -385,6 +455,9 @@
 				96DAD56023AFBA8F0019E44E /* PesiAbstactFactory.m in Sources */,
 				247008D823B05F140089CEFD /* BlackTea.m in Sources */,
 				96DAD56D23AFC74F0019E44E /* Student.m in Sources */,
+				964A757523B24D07004B708B /* MobileSIMCard.m in Sources */,
+				966A679C23B26AEB00C8441B /* OnePhone.m in Sources */,
+				964A757B23B24E73004B708B /* iPhone.m in Sources */,
 				96DAD51C23AFAD740019E44E /* ViewController.m in Sources */,
 				96DAD54D23AFB6440019E44E /* PesiFactory.m in Sources */,
 				96DAD55A23AFB9AD0019E44E /* PesiBottle.m in Sources */,
@@ -392,12 +465,15 @@
 				96DAD51623AFAD740019E44E /* AppDelegate.m in Sources */,
 				96DAD55723AFB99F0019E44E /* CocaBottle.m in Sources */,
 				96DAD53A23AFAE490019E44E /* SimpleFactory.m in Sources */,
+				964A757223B24CCB004B708B /* UnicomSIMCard.m in Sources */,
 				96DAD55123AFB97D0019E44E /* AbstractFactory.m in Sources */,
 				96DAD54323AFB2360019E44E /* PesiCola.m in Sources */,
 				96DAD55423AFB98C0019E44E /* Bottle.m in Sources */,
 				96DAD56523AFBD300019E44E /* Singleton.m in Sources */,
+				964A757823B24D46004B708B /* Phone.m in Sources */,
 				247008F523B08F110089CEFD /* VipMusicService.m in Sources */,
 				247008D523B05EC10089CEFD /* Tea.m in Sources */,
+				964A757E23B24E84004B708B /* miPhone.m in Sources */,
 				96DAD52723AFAD760019E44E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,7 +550,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -526,7 +602,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
