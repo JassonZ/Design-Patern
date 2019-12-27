@@ -35,6 +35,13 @@
 #import "NanoSIMCard.h"
 #import "NanoAdapter.h"
 #import "OnePhone.h"
+#import "Responder.h"
+#import "TV.h"
+#import "Command.h"
+#import "Controller.h"
+#import "Iterator.h"
+#import "ChatMediator.h"
+#import "ChatMember.h"
 
 @interface ViewController ()
 
@@ -140,6 +147,90 @@
     NanoAdapter * nanoAdapter = [NanoAdapter new];
     nanoAdapter.nanoSimCard = nanoSimCard;
     [onePhone setSimCard:nanoAdapter];
+    
+    
+    /**
+     责任链模式
+     */
+    Responder * successResponder = [Responder new];
+    Responder * warmingResponder = [Responder new];
+    Responder * httpResponder = [Responder new];
+    Responder * serviceResponder = [Responder new];
+    
+    successResponder.nextResponder = warmingResponder;
+    warmingResponder.nextResponder = httpResponder;
+    httpResponder.nextResponder = serviceResponder;
+    
+    successResponder.lowerLimit = 200;
+    successResponder.upperLimit = 299;
+    successResponder.name = @"success";
+    
+    warmingResponder.lowerLimit = 300;
+    warmingResponder.upperLimit = 399;
+    warmingResponder.name = @"warming";
+    
+    httpResponder.lowerLimit = 400;
+    httpResponder.upperLimit = 499;
+    httpResponder.name = @"http fail";
+    
+    serviceResponder.lowerLimit = 500;
+    serviceResponder.upperLimit = 599;
+    serviceResponder.name = @"service fail";
+    
+    [successResponder responderWithCode:200];
+    [successResponder responderWithCode:310];
+    [successResponder responderWithCode:401];
+    [successResponder responderWithCode:555];
+    [successResponder responderWithCode:600];
+    
+    
+    //命令模式
+    TV * tv = [TV new];
+    
+    Command * turnOnCommand = [Command new];
+    turnOnCommand.sel = @selector(turnOn);
+    turnOnCommand.target = tv;
+    
+    Command * turnOffCommand = [Command new];
+    turnOffCommand.sel = @selector(turnOff);
+    turnOffCommand.target = tv;
+    
+    Controller * controller = [Controller new];
+    [controller invokeCommand:turnOnCommand];
+    [controller invokeCommand:turnOffCommand];
+    
+    
+    /**
+     迭代器
+     */
+    Iterator * iterator = [Iterator new];
+    NSLog(@"%@",[iterator next]);
+    NSLog(@"%@",[iterator next]);
+    NSLog(@"%@",[iterator next]);
+    NSLog(@"%@",[iterator next]);
+    NSLog(@"%@",[iterator previous]);
+    
+    /**
+     中介者模式
+     */
+    ChatMediator * mediator = [ChatMediator shareMediator];
+    //新建聊天室成员
+    ChatMember * lily = [ChatMember new];
+    ChatMember * tom = [ChatMember new];
+    ChatMember * jack = [ChatMember new];
+    //成员在中介者处注册
+    [mediator registerChatMember:lily];
+    [mediator registerChatMember:tom];
+    [mediator registerChatMember:jack];
+    
+    lily.userName = @"lily";
+    tom.userName = @"tom";
+    jack.userName = @"jack";
+    
+    [lily sendMsg:@"hello everyone!"];
+    [tom sendMsg:@"hello lily!"];
+    [jack sendMsg:@"hi tom!"];
+    
 }
 
 

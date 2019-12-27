@@ -16,6 +16,14 @@
 		247008EF23B08E800089CEFD /* MusicService.m in Sources */ = {isa = PBXBuildFile; fileRef = 247008ED23B08E800089CEFD /* MusicService.m */; };
 		247008F223B08F000089CEFD /* FreeMusicService.m in Sources */ = {isa = PBXBuildFile; fileRef = 247008F123B08F000089CEFD /* FreeMusicService.m */; };
 		247008F523B08F110089CEFD /* VipMusicService.m in Sources */ = {isa = PBXBuildFile; fileRef = 247008F423B08F110089CEFD /* VipMusicService.m */; };
+		248940A923B5C89A0043517E /* Responder.m in Sources */ = {isa = PBXBuildFile; fileRef = 248940A823B5C89A0043517E /* Responder.m */; };
+		248940AD23B5D5450043517E /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 248940AC23B5D5450043517E /* Command.m */; };
+		248940B023B5D6060043517E /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 248940AF23B5D6060043517E /* Controller.m */; };
+		248940B323B5DD8F0043517E /* TV.m in Sources */ = {isa = PBXBuildFile; fileRef = 248940B223B5DD8F0043517E /* TV.m */; };
+		248940B723B5F2560043517E /* List.m in Sources */ = {isa = PBXBuildFile; fileRef = 248940B623B5F2560043517E /* List.m */; };
+		248940BA23B5F2C80043517E /* Iterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 248940B923B5F2C80043517E /* Iterator.m */; };
+		248940BE23B5FAC80043517E /* ChatMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 248940BD23B5FAC80043517E /* ChatMediator.m */; };
+		248940C123B5FB220043517E /* ChatMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 248940C023B5FB220043517E /* ChatMember.m */; };
 		964A756F23B24C2D004B708B /* SIMCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 964A756E23B24C2D004B708B /* SIMCard.m */; };
 		964A757223B24CCB004B708B /* UnicomSIMCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 964A757123B24CCB004B708B /* UnicomSIMCard.m */; };
 		964A757523B24D07004B708B /* MobileSIMCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 964A757423B24D07004B708B /* MobileSIMCard.m */; };
@@ -69,6 +77,22 @@
 		247008F123B08F000089CEFD /* FreeMusicService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FreeMusicService.m; sourceTree = "<group>"; };
 		247008F323B08F110089CEFD /* VipMusicService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VipMusicService.h; sourceTree = "<group>"; };
 		247008F423B08F110089CEFD /* VipMusicService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VipMusicService.m; sourceTree = "<group>"; };
+		248940A723B5C89A0043517E /* Responder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Responder.h; sourceTree = "<group>"; };
+		248940A823B5C89A0043517E /* Responder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Responder.m; sourceTree = "<group>"; };
+		248940AB23B5D5450043517E /* Command.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		248940AC23B5D5450043517E /* Command.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
+		248940AE23B5D6060043517E /* Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		248940AF23B5D6060043517E /* Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
+		248940B123B5DD8F0043517E /* TV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TV.h; sourceTree = "<group>"; };
+		248940B223B5DD8F0043517E /* TV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TV.m; sourceTree = "<group>"; };
+		248940B523B5F2560043517E /* List.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
+		248940B623B5F2560043517E /* List.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = List.m; sourceTree = "<group>"; };
+		248940B823B5F2C80043517E /* Iterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Iterator.h; sourceTree = "<group>"; };
+		248940B923B5F2C80043517E /* Iterator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Iterator.m; sourceTree = "<group>"; };
+		248940BC23B5FAC80043517E /* ChatMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatMediator.h; sourceTree = "<group>"; };
+		248940BD23B5FAC80043517E /* ChatMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatMediator.m; sourceTree = "<group>"; };
+		248940BF23B5FB220043517E /* ChatMember.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatMember.h; sourceTree = "<group>"; };
+		248940C023B5FB220043517E /* ChatMember.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatMember.m; sourceTree = "<group>"; };
 		964A756D23B24C2D004B708B /* SIMCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SIMCard.h; sourceTree = "<group>"; };
 		964A756E23B24C2D004B708B /* SIMCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIMCard.m; sourceTree = "<group>"; };
 		964A757023B24CCB004B708B /* UnicomSIMCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnicomSIMCard.h; sourceTree = "<group>"; };
@@ -204,6 +228,61 @@
 			path = "DesignPatern/DesigPatern/结构型/享元模式";
 			sourceTree = SOURCE_ROOT;
 		};
+		248940A523B44EEF0043517E /* 行为型 */ = {
+			isa = PBXGroup;
+			children = (
+				248940BB23B5FAA90043517E /* 中介者模式 */,
+				248940B423B5F2440043517E /* 迭代器模式 */,
+				248940AA23B5D5270043517E /* 命令模式 */,
+				248940A623B44EFA0043517E /* 职责链模式 */,
+			);
+			path = "行为型";
+			sourceTree = "<group>";
+		};
+		248940A623B44EFA0043517E /* 职责链模式 */ = {
+			isa = PBXGroup;
+			children = (
+				248940A723B5C89A0043517E /* Responder.h */,
+				248940A823B5C89A0043517E /* Responder.m */,
+			);
+			path = "职责链模式";
+			sourceTree = "<group>";
+		};
+		248940AA23B5D5270043517E /* 命令模式 */ = {
+			isa = PBXGroup;
+			children = (
+				248940AB23B5D5450043517E /* Command.h */,
+				248940AC23B5D5450043517E /* Command.m */,
+				248940AE23B5D6060043517E /* Controller.h */,
+				248940AF23B5D6060043517E /* Controller.m */,
+				248940B123B5DD8F0043517E /* TV.h */,
+				248940B223B5DD8F0043517E /* TV.m */,
+			);
+			path = "命令模式";
+			sourceTree = "<group>";
+		};
+		248940B423B5F2440043517E /* 迭代器模式 */ = {
+			isa = PBXGroup;
+			children = (
+				248940B523B5F2560043517E /* List.h */,
+				248940B623B5F2560043517E /* List.m */,
+				248940B823B5F2C80043517E /* Iterator.h */,
+				248940B923B5F2C80043517E /* Iterator.m */,
+			);
+			path = "迭代器模式";
+			sourceTree = "<group>";
+		};
+		248940BB23B5FAA90043517E /* 中介者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				248940BC23B5FAC80043517E /* ChatMediator.h */,
+				248940BD23B5FAC80043517E /* ChatMediator.m */,
+				248940BF23B5FB220043517E /* ChatMember.h */,
+				248940C023B5FB220043517E /* ChatMember.m */,
+			);
+			path = "中介者模式";
+			sourceTree = "<group>";
+		};
 		964A756C23B24C07004B708B /* 桥接模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -274,6 +353,7 @@
 		96DAD52D23AFADA40019E44E /* DesigPatern */ = {
 			isa = PBXGroup;
 			children = (
+				248940A523B44EEF0043517E /* 行为型 */,
 				247008D123B05E7E0089CEFD /* 结构型 */,
 				96DAD56123AFBC400019E44E /* 创建型 */,
 			);
@@ -437,6 +517,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				248940B023B5D6060043517E /* Controller.m in Sources */,
 				247008E623B0675C0089CEFD /* Chef.m in Sources */,
 				96DAD54A23AFB5E20019E44E /* CocaFactory.m in Sources */,
 				964A756F23B24C2D004B708B /* SIMCard.m in Sources */,
@@ -450,13 +531,18 @@
 				96DAD54723AFB5830019E44E /* Factory.m in Sources */,
 				96DAD54023AFB20E0019E44E /* CocaCola.m in Sources */,
 				247008F223B08F000089CEFD /* FreeMusicService.m in Sources */,
+				248940A923B5C89A0043517E /* Responder.m in Sources */,
 				247008DB23B064510089CEFD /* WebImage.m in Sources */,
 				247008E323B067500089CEFD /* Waiter.m in Sources */,
 				96DAD56023AFBA8F0019E44E /* PesiAbstactFactory.m in Sources */,
 				247008D823B05F140089CEFD /* BlackTea.m in Sources */,
+				248940BE23B5FAC80043517E /* ChatMediator.m in Sources */,
 				96DAD56D23AFC74F0019E44E /* Student.m in Sources */,
+				248940AD23B5D5450043517E /* Command.m in Sources */,
 				964A757523B24D07004B708B /* MobileSIMCard.m in Sources */,
 				966A679C23B26AEB00C8441B /* OnePhone.m in Sources */,
+				248940B723B5F2560043517E /* List.m in Sources */,
+				248940C123B5FB220043517E /* ChatMember.m in Sources */,
 				964A757B23B24E73004B708B /* iPhone.m in Sources */,
 				96DAD51C23AFAD740019E44E /* ViewController.m in Sources */,
 				96DAD54D23AFB6440019E44E /* PesiFactory.m in Sources */,
@@ -471,10 +557,12 @@
 				96DAD55423AFB98C0019E44E /* Bottle.m in Sources */,
 				96DAD56523AFBD300019E44E /* Singleton.m in Sources */,
 				964A757823B24D46004B708B /* Phone.m in Sources */,
+				248940B323B5DD8F0043517E /* TV.m in Sources */,
 				247008F523B08F110089CEFD /* VipMusicService.m in Sources */,
 				247008D523B05EC10089CEFD /* Tea.m in Sources */,
 				964A757E23B24E84004B708B /* miPhone.m in Sources */,
 				96DAD52723AFAD760019E44E /* main.m in Sources */,
+				248940BA23B5F2C80043517E /* Iterator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
