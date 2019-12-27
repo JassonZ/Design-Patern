@@ -42,6 +42,9 @@
 #import "Iterator.h"
 #import "ChatMediator.h"
 #import "ChatMember.h"
+#import "Player.h"
+#import "PlayerState.h"
+#import "Memorandum.h"
 
 @interface ViewController ()
 
@@ -231,6 +234,16 @@
     [tom sendMsg:@"hello lily!"];
     [jack sendMsg:@"hi tom!"];
     
+    //备忘录模式
+    Player * playerA = [Player new];
+    [playerA setPlayerName:@"KING" level:99 rank:30];
+    
+    Memorandum * memorandum = [Memorandum new];
+    [memorandum storeWithPlayer:playerA];
+    
+    Player * playerB = [Player new];
+    [memorandum restoreWithPlayer:playerB];
+    NSLog(@"name:%@ level:%ld rank:%ld",playerB.playerState.name,playerB.playerState.level,playerB.playerState.rank);
 }
 
 
