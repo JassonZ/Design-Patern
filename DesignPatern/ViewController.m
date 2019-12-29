@@ -45,6 +45,8 @@
 #import "Player.h"
 #import "PlayerState.h"
 #import "Memorandum.h"
+#import "WeatherStation.h"
+#import "Observer.h"
 
 @interface ViewController ()
 
@@ -244,6 +246,24 @@
     Player * playerB = [Player new];
     [memorandum restoreWithPlayer:playerB];
     NSLog(@"name:%@ level:%ld rank:%ld",playerB.playerState.name,playerB.playerState.level,playerB.playerState.rank);
+    
+    
+    /**
+        观察者模式
+     */
+    WeatherStation * station = [WeatherStation new];
+    Observer * farmer = [Observer new];
+    Observer * student2 = [Observer new];
+    farmer.name = @"farmer";
+    student2.name = @"student";
+    
+    [station registerWithObserver:farmer];
+    [station registerWithObserver:student2];
+    
+    station.state = @"rainy";
+    station.state = @"sunny";
+    
+    
 }
 
 

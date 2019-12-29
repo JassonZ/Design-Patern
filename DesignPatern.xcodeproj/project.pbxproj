@@ -37,6 +37,8 @@
 		966A679623B26A6700C8441B /* NanoSIMCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 966A679523B26A6700C8441B /* NanoSIMCard.m */; };
 		966A679923B26AAA00C8441B /* NanoAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 966A679823B26AAA00C8441B /* NanoAdapter.m */; };
 		966A679C23B26AEB00C8441B /* OnePhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 966A679B23B26AEB00C8441B /* OnePhone.m */; };
+		966A67A023B7B0F200C8441B /* WeatherStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 966A679F23B7B0F200C8441B /* WeatherStation.m */; };
+		966A67A323B7B14000C8441B /* Observer.m in Sources */ = {isa = PBXBuildFile; fileRef = 966A67A223B7B14000C8441B /* Observer.m */; };
 		96DAD51623AFAD740019E44E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DAD51523AFAD740019E44E /* AppDelegate.m */; };
 		96DAD51C23AFAD740019E44E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DAD51B23AFAD740019E44E /* ViewController.m */; };
 		96DAD51F23AFAD740019E44E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DAD51D23AFAD740019E44E /* Main.storyboard */; };
@@ -122,6 +124,10 @@
 		966A679823B26AAA00C8441B /* NanoAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NanoAdapter.m; sourceTree = "<group>"; };
 		966A679A23B26AEB00C8441B /* OnePhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OnePhone.h; sourceTree = "<group>"; };
 		966A679B23B26AEB00C8441B /* OnePhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnePhone.m; sourceTree = "<group>"; };
+		966A679E23B7B0F200C8441B /* WeatherStation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherStation.h; sourceTree = "<group>"; };
+		966A679F23B7B0F200C8441B /* WeatherStation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherStation.m; sourceTree = "<group>"; };
+		966A67A123B7B14000C8441B /* Observer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Observer.h; sourceTree = "<group>"; };
+		966A67A223B7B14000C8441B /* Observer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Observer.m; sourceTree = "<group>"; };
 		96DAD51123AFAD740019E44E /* DesignPatern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DAD51423AFAD740019E44E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		96DAD51523AFAD740019E44E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -240,6 +246,8 @@
 		248940A523B44EEF0043517E /* 行为型 */ = {
 			isa = PBXGroup;
 			children = (
+				966A67A423B879DC00C8441B /* 状态模式 */,
+				966A679D23B7B09700C8441B /* 观察者模式 */,
 				248940C223B604920043517E /* 备忘录模式 */,
 				248940BB23B5FAA90043517E /* 中介者模式 */,
 				248940B423B5F2440043517E /* 迭代器模式 */,
@@ -338,6 +346,24 @@
 				966A679B23B26AEB00C8441B /* OnePhone.m */,
 			);
 			path = "适配器模式";
+			sourceTree = "<group>";
+		};
+		966A679D23B7B09700C8441B /* 观察者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				966A679E23B7B0F200C8441B /* WeatherStation.h */,
+				966A679F23B7B0F200C8441B /* WeatherStation.m */,
+				966A67A123B7B14000C8441B /* Observer.h */,
+				966A67A223B7B14000C8441B /* Observer.m */,
+			);
+			path = "观察者模式";
+			sourceTree = "<group>";
+		};
+		966A67A423B879DC00C8441B /* 状态模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "状态模式";
 			sourceTree = "<group>";
 		};
 		96DAD50823AFAD740019E44E = {
@@ -553,6 +579,7 @@
 				96DAD55D23AFBA390019E44E /* CocaAbstractFactory.m in Sources */,
 				96DAD54723AFB5830019E44E /* Factory.m in Sources */,
 				96DAD54023AFB20E0019E44E /* CocaCola.m in Sources */,
+				966A67A023B7B0F200C8441B /* WeatherStation.m in Sources */,
 				247008F223B08F000089CEFD /* FreeMusicService.m in Sources */,
 				248940A923B5C89A0043517E /* Responder.m in Sources */,
 				247008DB23B064510089CEFD /* WebImage.m in Sources */,
@@ -572,6 +599,7 @@
 				248940CB23B606220043517E /* Memorandum.m in Sources */,
 				96DAD54D23AFB6440019E44E /* PesiFactory.m in Sources */,
 				96DAD55A23AFB9AD0019E44E /* PesiBottle.m in Sources */,
+				966A67A323B7B14000C8441B /* Observer.m in Sources */,
 				247008E023B067410089CEFD /* Customer.m in Sources */,
 				96DAD51623AFAD740019E44E /* AppDelegate.m in Sources */,
 				96DAD55723AFB99F0019E44E /* CocaBottle.m in Sources */,
