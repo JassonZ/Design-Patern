@@ -47,6 +47,10 @@
 #import "Memorandum.h"
 #import "WeatherStation.h"
 #import "Observer.h"
+#import "CookFish.h"
+#import "FADepartment.h"
+#import "FulltimeEmployee.h"
+#import "HRDepartment.h"
 
 @interface ViewController ()
 
@@ -263,6 +267,30 @@
     station.state = @"rainy";
     station.state = @"sunny";
     
+    //模板方法模式
+    CookFish * cookFish = [CookFish new];
+    [cookFish cook];
+    
+    //访问者模式
+    FADepartment * fa = [FADepartment new];
+    HRDepartment * hr = [HRDepartment new];
+    
+    FulltimeEmployee * tim = [FulltimeEmployee new];
+    tim.name = @"tim";
+    tim.workTime = 55;
+    tim.salary = 100;
+    
+    FulltimeEmployee * bill = [FulltimeEmployee new];
+    bill.name = @"bill";
+    bill.workTime = 38;
+    bill.salary = 150;
+    
+    NSArray * employeeList = @[tim,bill];
+    [employeeList enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        Employee * employee = obj;
+        [employee accept:fa];
+        [employee accept:hr];
+    }];
     
 }
 
